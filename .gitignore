@@ -145,6 +145,5 @@ yarn-error.log
 # End of https://www.gitignore.io/api/vue,java,vuejs,java-web,intellij
 /.idea/
 
-.env
 
 *.iml

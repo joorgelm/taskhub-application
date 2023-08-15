@@ -81,7 +81,6 @@ export default {
         this.$store.dispatch(actionTypes.CLIENTE.BUSCAR_TODOS)
     },
     data: () => ({
-        licitacoes: [],
         nomeRegras: [
             v => !!v || 'nome é obrigatório',
             v => (v || '').length <= 300 || 'Limite de caracteres excedido'
